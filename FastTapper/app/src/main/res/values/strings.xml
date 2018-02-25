@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Fast Tapper</string>
+    <string name="by_line">Test your reflexes ;D</string>
+    <string-array name="ruleList">
+        <item>FastTapper is a simple competitive game, in which two people play against each other.</item>
+        <item>When the indicator changes from <b>Ready...Set...</b> to <b>Tap</b>, the one who presses first wins.</item>
+        <item>If you press when <b>Tap</b> is not highlighted, you lose a point.</item>
+        <item>The one to reach the desired set no. of points you win.</item>
+        <item>It can be a fun and competitive party game. Play Honest :) and Enjoy :)</item>
+    </string-array>
+</resources>

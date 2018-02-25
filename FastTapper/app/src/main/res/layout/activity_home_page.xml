@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="2"
+    android:orientation="vertical"
+    android:background="#431587"
+    tools:context="io.github.crypticguy.fasttapper.HomePageActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        tools:ignore="Suspicious0dp"
+        android:gravity="center"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="30sp"
+        android:textColor="#fff"/>
+    <TextView
+        android:layout_marginTop="10sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/by_line"
+        android:textSize="18sp"
+        android:textColor="#eee"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center|top"
+        tools:ignore="Suspicious0dp">
+
+        <Button
+            android:id="@+id/playGame"
+            android:padding="20sp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="PLAY GAME"
+            android:textSize="15sp"
+            android:onClick="playTheGame"
+            android:layout_marginBottom="10dp"
+            android:background="#ffaf00"/>
+
+        <Button
+            android:id="@+id/displayRules"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="20sp"
+            android:text="HOW TO PLAY"
+            android:textSize="15sp"
+            android:background="#ffaf00"
+            android:onClick="showTheRules"/>
+
+    </LinearLayout>
+</LinearLayout>

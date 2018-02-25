@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+    tools:context="io.github.crypticguy.fasttapper.FastTapper">
+
+    <Button
+        android:id="@+id/topButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="restartGame"
+        android:layout_weight="4.5"
+        android:text="PLAYER 1"
+        android:textSize="20dp"
+        android:background="#76FF03"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/ScoreArea_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PLAYER1: 0"
+            android:background="#000000"
+            android:textColor="#ffffff"
+            android:textAlignment="center"
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:textSize="10dp" />
+
+        <TextView
+            android:id="@+id/countdownTimer"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="READYYY...SET..."
+            android:background="#000000"
+            android:textColor="#ffffff"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:textSize="10dp" />
+
+        <TextView
+            android:id="@+id/ScoreArea_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PLAYER2: 0"
+            android:background="#000000"
+            android:textColor="#ffffff"
+            android:textAlignment="center"
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:textSize="10dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bottomButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="restartGame"
+        android:padding="20dp"
+        android:background="#9B0157"
+        android:layout_weight="4.5"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:text="PLAYER 2" />
+
+</LinearLayout>
